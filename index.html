@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Library App</title>
+    <script src="https://kit.fontawesome.com/002f013f0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <h3>Trending Subjects</h3>
+            <input type="text" placeholder="Search Subjects" id="subjects">
+            <ul class="list-items">
+                <li id="javascript" class="items">Javascript</li>
+                <li id="harrypotter" class="items">Harry Potter</li>
+                <li id="indianhistory" class="items">Indian History</li>
+                <li id="crypto" class="items">Crypto currency</li>
+                <li id="criminallaw" class="items">Criminal Law</li>
+            </ul>
+        </div>
+        <div class="right-container">
+            <div class="top-container">
+                <div id="search-books">
+                    <input type="text" placeholder="Search Book By Titles or By Authors" id="search">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass" id="btn"></i>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <table class="data-table">
+                </table>
+                <div class="button">
+                    <button id="left-btn" class="btn"> < Previous</button>
+                    <button id="right-btn" class="btn">Next ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
